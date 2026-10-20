@@ -1,0 +1,34 @@
+{
+  "color": {
+    "$type": "color",
+    "white": { "$value": "#FFFFFF" },
+    "transparent": { "$value": "#FFFFFF00" },
+    "neutral": {
+      "50":  { "$value": "#F8FAFC" },
+      "100": { "$value": "#EBEDEF" },
+      "200": { "$value": "#E2E2E2" },
+      "500": { "$value": "#70798A" },
+      "700": { "$value": "#444B54" }
+    },
+    "blue": {
+      "50":  { "$value": "#EFF8FF" },
+      "100": { "$value": "#E4F5FF" },
+      "200": { "$value": "#C4E9FF" },
+      "500": { "$value": "#0091EA" },
+      "600": { "$value": "#0477D2" },
+      "700": { "$value": "#0063B2" }
+    },
+    "green": {
+      "600": { "$value": "#00A922" }
+    },
+    "purple": {
+      "700": { "$value": "#800080" }
+    }
+  },
+  "opacity": {
+    "$type": "number",
+    "15": { "$value": 0.15 },
+    "50": { "$value": 0.5 },
+    "80": { "$value": 0.8 }
+  }
+}

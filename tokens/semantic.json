@@ -1,0 +1,44 @@
+{
+  "color": {
+    "$type": "color",
+    "text": {
+      "primary":      { "$value": "{color.neutral.700}" },
+      "secondary":    { "$value": "{color.neutral.500}" },
+      "on-brand":     { "$value": "{color.white}" },
+      "brand":        { "$value": "{color.blue.700}" },
+      "link":         { "$value": "{color.blue.600}" },
+      "link-visited": { "$value": "{color.purple.700}" }
+    },
+    "background": {
+      "page":        { "$value": "{color.white}" },
+      "section":     { "$value": "{color.blue.50}" },
+      "surface":     { "$value": "{color.white}" },
+      "muted":       { "$value": "{color.neutral.50}" },
+      "hover":       { "$value": "{color.neutral.100}" },
+      "transparent": { "$value": "{color.transparent}" },
+      "footer":      { "$value": "{color.blue.500}" }
+    },
+    "border": {
+      "default": { "$value": "{color.neutral.200}" }
+    },
+    "brand": {
+      "default":      { "$value": "{color.blue.600}" },
+      "hover":        { "$value": "{color.blue.500}" },
+      "active":       { "$value": "{color.blue.700}" },
+      "subtle":       { "$value": "{color.blue.200}" },
+      "subtle-hover": { "$value": "{color.blue.100}" }
+    },
+    "accent": {
+      "default": { "$value": "{color.green.600}" }
+    },
+    "icon": {
+      "default": { "$value": "{color.neutral.700}" }
+    }
+  },
+  "opacity": {
+    "$type": "number",
+    "disabled":   { "$value": "{opacity.50}" },
+    "translucent": { "$value": "{opacity.80}" },
+    "subtle":     { "$value": "{opacity.15}" }
+  }
+}
