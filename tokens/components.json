@@ -1,0 +1,55 @@
+{
+  "button": {
+    "primary": {
+      "background":        { "$value": "{color.brand.default}", "$type": "color" },
+      "background-hover":  { "$value": "{color.brand.hover}",   "$type": "color" },
+      "background-active": { "$value": "{color.brand.active}",  "$type": "color" },
+      "text":              { "$value": "{color.text.on-brand}", "$type": "color" },
+      "disabled-opacity":  { "$value": "{opacity.disabled}",    "$type": "number" }
+    },
+    "secondary": {
+      "background":         { "$value": "{color.brand.subtle}",       "$type": "color" },
+      "background-hover":   { "$value": "{color.brand.subtle-hover}", "$type": "color" },
+      "background-active":  { "$value": "{color.brand.hover}",        "$type": "color" },
+      "background-opacity": { "$value": "{opacity.translucent}",      "$type": "number" },
+      "text":               { "$value": "{color.text.brand}",         "$type": "color" },
+      "text-hover":         { "$value": "{color.text.brand}",         "$type": "color" },
+      "text-active":        { "$value": "{color.text.on-brand}",      "$type": "color" }
+    }
+  },
+  "tab": {
+    "background":        { "$value": "{color.background.transparent}", "$type": "color" },
+    "background-hover":  { "$value": "{color.background.hover}",       "$type": "color" },
+    "background-active": { "$value": "{color.brand.default}",          "$type": "color" },
+    "text":              { "$value": "{color.text.primary}",           "$type": "color" },
+    "text-hover":        { "$value": "{color.text.primary}",           "$type": "color" },
+    "text-active":       { "$value": "{color.text.on-brand}",          "$type": "color" }
+  },
+  "card": {
+    "background":       { "$value": "{color.background.surface}", "$type": "color" },
+    "background-hover": { "$value": "{color.background.muted}",   "$type": "color" },
+    "border":           { "$value": "{color.border.default}",     "$type": "color" }
+  },
+  "chip": {
+    "background": { "$value": "{color.background.muted}", "$type": "color" },
+    "text":       { "$value": "{color.text.primary}",     "$type": "color" }
+  },
+  "pagination": {
+    "item-background": { "$value": "{color.brand.default}", "$type": "color" }
+  },
+  "icon": {
+    "color":              { "$value": "{color.icon.default}",   "$type": "color" },
+    "background":         { "$value": "{color.icon.default}",   "$type": "color" },
+    "background-opacity": { "$value": "{opacity.subtle}",       "$type": "number" },
+    "accent":             { "$value": "{color.accent.default}", "$type": "color" }
+  },
+  "footer": {
+    "background": { "$value": "{color.background.footer}", "$type": "color" }
+  },
+  "header": {
+    "overlay-background":     { "$value": "{color.background.header}",     "$type": "color" },
+    "overlay-background-alt": { "$value": "{color.background.header-alt}", "$type": "color" },
+    "overlay-opacity":        { "$value": "{opacity.translucent}",         "$type": "number" },
+    "text":                   { "$value": "{color.text.on-brand}",         "$type": "color" }
+  }
+}

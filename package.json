@@ -1,0 +1,11 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build --config config.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^11.19.1"
+  }
+}
