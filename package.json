@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "style-dictionary build --config config.js"
+    "build": "style-dictionary build --config config.js",
+    "build": "node build.js",
+    "check:contrast": "node check-contrast.js"
   },
   "devDependencies": {
-    "style-dictionary": "^11.19.1"
+    "style-dictionary": "^5.0.0"
+  },
+  "dependencies": {
+    "culori": "^4.0.2"
   }
 }
